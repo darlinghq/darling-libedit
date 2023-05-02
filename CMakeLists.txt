@@ -59,4 +59,4 @@ InstallSymlink("libedit.3.dylib" "${CMAKE_INSTALL_PREFIX}/libexec/darling/usr/li
 InstallSymlink("libedit.3.dylib" "${CMAKE_INSTALL_PREFIX}/libexec/darling/usr/lib/libedit.dylib")
 
 install(TARGETS edit DESTINATION libexec/darling/usr/lib)
-install(FILES inputrc DESTINATION libexec/darling/etc)
+install(FILES inputrc DESTINATION libexec/darling/private/etc)
